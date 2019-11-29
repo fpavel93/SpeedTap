@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_text">
+
+<html>
+<head>
+</head>
+
+<body>
+    <p>This application was created by Pavel Furen and Stanislav Chour for an Android project</p>
+</body>
+</html>
+
+    </string>
+
+</resources>

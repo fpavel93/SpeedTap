@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/header"
+        android:id="@+id/sp_img"/>
+
+    <Button
+        android:id="@+id/main_game_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/single_player_btn"
+        android:background="@drawable/button_shape"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:textSize="20sp"
+        android:text="@string/two_players_btn"
+        android:id="@+id/two_player_btn"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/round_btn"
+                android:id="@+id/settings_btn"
+                android:textSize="13sp"
+                android:text="@string/settings_btn" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/round_btn"
+                android:textSize="13sp"
+                android:text="@string/about_btn"
+                android:id="@+id/about_btn"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/round_btn"
+                android:id="@+id/high_score_btn"
+                android:textSize="13sp"
+                android:text="@string/high_score_btn" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

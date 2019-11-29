@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_text">
+
+<html>
+<head>
+</head>
+
+<body>
+    <p>האפליקציה נוצרה ע"י פבל פורן וסטס שור למטרת פרויקט באנדרואיד</p>
+</body>
+</html>
+
+    </string>
+
+</resources>

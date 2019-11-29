@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/curved_diag"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/game_over_tv"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/new_highScore_score"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/enter_name_hint"
+            android:id="@+id/high_score_name_tv"
+            android:layout_margin="10dp"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:background="@drawable/text_edit_style"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/add_high_scores_btn"
+            android:id="@+id/add_highScore_btn"
+            android:background="@drawable/button_shape"
+            android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_game_btn"
+            android:id="@+id/new_game_hs_btn"
+            android:background="@drawable/button_shape"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exit_game_btn"
+            android:id="@+id/exit_game_hs_btn"
+            android:background="@drawable/button_shape"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

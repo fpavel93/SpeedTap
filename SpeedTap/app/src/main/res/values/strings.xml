@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SpeedTap</string>
+    <string name="score_string">score:</string>
+    <string name="single_player_btn">Single Player</string>
+    <string name="settings_btn">Settings</string>
+    <string name="about_btn">About</string>
+    <string name="high_score_btn">High Score</string>
+    <string name="two_players_btn">Two Players</string>
+    <string name="game_over_tv">Game Over</string>
+    <string name="new_game_btn">New Game</string>
+    <string name="exit_game_btn">Exit Game</string>
+    <string name="your_score_text">"Your Score is: "</string>
+    <string name="enter_name_hint">Enter your name</string>
+    <string name="add_high_scores_btn">Add to High Scores</string>
+    <string name="high_score_title">High Score</string>
+    <string name="sound_btn">Sound:</string>
+    <string name="music_btn">Music:</string>
+    <string name="color_tv">Your Color</string>
+    <string name="player1_color">Player 1 Color</string>
+    <string name="player2_color">Player 2 Color</string>
+    <string name="loser">Loser</string>
+    <string name="winner">Winner</string>
+</resources>

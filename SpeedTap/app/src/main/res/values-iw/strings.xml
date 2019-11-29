@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpeedTap</string>
+    <string name="score_string">ניקוד:</string>
+    <string name="single_player_btn">שחקן יחיד</string>
+    <string name="settings_btn">הגדרות</string>
+    <string name="high_score_btn">טבלת שיאים</string>
+    <string name="about_btn">אודות</string>
+    <string name="two_players_btn">שני שחקנים</string>
+    <string name="new_game_btn">משחק חדש</string>
+    <string name="game_over_tv">המשחק נגמר</string>
+    <string name="exit_game_btn">צא מהמשחק</string>
+    <string name="your_score_text">"הניקוד שלך הוא: "</string>
+    <string name="enter_name_hint">הכנס את שמך</string>
+    <string name="add_high_scores_btn">הוסף שיא חדש</string>
+    <string name="high_score_title">טבלת שיאים</string>
+    <string name="sound_btn">"צלילים: "</string>
+    <string name="music_btn">"מוזיקה: "</string>
+    <string name="color_tv">הצבע שלך</string>
+    <string name="player1_color">הצבע של שחקן 1</string>
+    <string name="player2_color">הצבע של שחקן 2</string>
+    <string name="loser">הפסדת</string>
+    <string name="winner">ניצחת</string>
+</resources>
